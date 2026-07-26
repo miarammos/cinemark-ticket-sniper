@@ -18,14 +18,14 @@ timezone = "America/Chicago"
 
 [filters]
 # Rows you refuse to sit in (usually the neck-craning front rows).
-excluded_rows = ["A", "B", "C", "D"]
+excluded_rows = ["A", "B", "C"]
 
 # Ignore showings that start outside this window (theater-local, 24h HH:MM).
-earliest_showtime = "09:00"
+earliest_showtime = "07:00"
 latest_showtime = "23:59"
 
 # Alert only when this many physically adjacent seats open up together.
-party_size = 1
+party_size = 2
 
 [pacing]
 # Cinemark rate-limits around 60-70 requests per 10 minutes per IP.
