@@ -36,8 +36,7 @@ jobs:
 
       - name: Run sweep
         if: ${{ !inputs.test_alert }}
-        run: |
-          python3 watch.py --once --dates 2026-08-13 2026-08-14 2026-08-15 2026-08-16
+        run: python3 watch.py --once
 
       - name: Persist state
         run: |
